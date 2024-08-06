@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: blue;
+    background:linear-gradient(45deg,#010758,#490d61)
+    
+}
+.container h2{
+    font-size: 45px;
+}
+.container span{
+    color:purple;
+}
+.container textarea{
+    width: 550px;
+    height: 225px;
+    background: #403d84;
+    font-size: 1rem;
+    color:white;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding:1rem;
+}
+.row{
+    width: 550px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.row button{
+    background: #ff2963;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 2rem;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.row select{
+    flex: 1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+}
